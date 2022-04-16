@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Curneu</title>
+	<link rel="stylesheet" href="nav.css">
+	<link rel="stylesheet" href="button.css">
+	<link rel="stylesheet" href="cookies.css">
+	<script src="cookies.js"></script>
+	<script src="nav.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Roboto');
+		body, html 
+		{
+		  height: 100%;
+		  font-family: 'Roboto';
+		}
+
+		.bg-image {
+		 
+		  background-image: url("background.jpg");
+		  filter: blur(8px);
+		  -webkit-filter: blur(8px);
+		  height: 100%;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		}
+
+		.bg-text 
+		{
+		  color: black;
+		  background-color: rgb(238, 234, 222);
+		  background-color: rgba(238, 234, 222,0.8);
+		  font-weight: bold;
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+		  z-index: 2;
+		  width: 80%;
+		  padding: 20px;
+		  text-align: center;
+		  font-size: 24px;
+		  font-family:Garamond;
+		}
+		.box:hover
+		{
+			background-color: #ADD8E6;
+		}
+		.flex-container 
+		{
+		    display: flex;
+		    flex-wrap: wrap;
+  			justify-content: space-between;
+		}
+		.flex-child 
+		{
+		    flex-basis:auto;
+		}  
+		.flex-child:hover
+		{
+			background-color: #ADD8E6;
+		}
+		.prod img:hover
+		{
+			transform: scale(1.1);
+		}
+		.contact
+		{
+			flex-basis:auto;
+		}
+		input[type=text],input[type=email]
+		{
+		  width: 400px;
+		  padding: 12px 20px;
+		  margin: 8px 0;
+		  display: inline-block;
+		  border: 1px solid #ccc;
+		  border-radius: 4px;
+		  box-sizing: border-box;
+		}
+		input[type=submit]
+		{
+		  width: 400px;
+		  padding: 12px 20px;
+		  margin: 8px 0;
+		  display: inline-block;
+		  border: 1px solid #ccc;
+		  border-radius: 4px;
+		  box-sizing: border-box;
+		  background-color:#74b4fe
+		}
+		input[type=submit]:hover 
+		{
+		   background-color: #4199fe;
+		}
+		textarea
+		{
+		  width: 400px;
+		  padding: 12px 20px;
+		  margin: 8px 0;
+		  display: inline-block;
+		  border: 1px solid #ccc;
+		  border-radius: 4px;
+		  box-sizing: border-box;
+		}
+	</style>
+</head>
+<body>
+	<div class="bg-image" id="top"></div>
+	<div class="bg-text">
+		<img src="logo.jpg" height="100px" width="300px" style="margin-right: 20px;">
+		<p>We are a team of Clinicians, Scientists, Designers, MedTech Innovators and Engineers from Germany and India joined hands with a motive to create and innovate, affordable healthcare solutions for the unmet clinical needs.</p>
+	</div>
+	<section class="navigation">
+	  <div class="nav-container">
+	    <div class="brand">
+	      <a href="Curneu.html"><img src="navbar.jpg" height="40px" width="100px" style="padding-top: 10px;"></a>
+	    </div>
+	    <nav>
+	      <div class="nav-mobile"><a id="navbar-toggle" href="#!"><span></span></a></div>
+	      <ul class="nav-list">
+	        <li>
+	          <a href="#top">Home</a>
+	        </li>
+	        <li>
+	          <a href="#Aboutus">About Us</a>
+	        </li>
+	        <li>
+	          <a href="#!">Products</a>
+	          <ul class="navbar-dropdown">
+	            <li>
+	              <a href="#!">Acu4You</a>
+	            </li>
+	            <li>
+	              <a href="#!">Other Products</a>
+	            </li>
+	          </ul>
+	        </li>
+	        <li>
+	          <a href="#!">Careers</a>
+	        </li>
+	        <li>
+	          <a href="#contactus">Contact Us</a>
+	        </li>
+	      </ul>
+	    </nav>
+	  </div>
+	</section>
+	<div id="Aboutus"style="margin-top: 100px;">
+		<center>
+			<strong style="color: #4199fe;font-size: 30px;"><u> About Us </u></strong>
+		</center>
+	</div>
+	<div class="box" style="width: 1000px;border: 3px ridge rgba(51, 51, 51, 0.3);padding: 50px;margin: 28px; border-radius: 10px;margin-left: 200px; height: 180px; font-family: 'Quicksand';font-size: 18px;">
+	<strong style="font-size: 23px;"><center>About Us</center></strong>
+	<p style="text-align: center;">
+		Curneu MedTech Innovation is a health care technology firm based at Heidelberg, Germany. We work on a motive of building an affordable and innovative healthcare solutions that address the clinical needs thereby bringing better lives for the needy.
+	</p>
+	<p style="text-align: center;">
+		As our motto says, "Care beyond reach", the goal of Curneu is to bring the world community smaller such a way each one of the world's population receives better healthcare. Curneu focuses on delivering quality affordable healthcare technology to developing countries.
+	</p>
+	<p style="text-align: center;">
+		A strong team of experienced clinicians, world class scientific team and medical technologists, advisory members, research, and development team on an Indo-German initiative, work alongside with global collaborators at Curneu MedTech Innovations.
+	</p>
+	</div>
+	<div class="flex-container">
+		<div class="flex-child" style="width: 400px;border: 3px ridge rgba(51, 51, 51, 0.3);padding: 50px;margin: 28px; border-radius: 10px;margin-left: 200px; height: 70px; font-family: 'Quicksand';font-size: 18px;">
+			<strong style="font-size: 23px;"><center>Our Vision</center></strong>
+			<p style="text-align: center;">
+				We envision to address the complex clinical needs alongside to make healthcare technology reach everyone around the globe.
+			</p>
+		</div>
+		<div class="flex-child" style=" width: 400px;border: 3px ridge rgba(51, 51, 51, 0.3);padding: 50px;margin: 28px; border-radius: 10px; height: 70px; font-family: 'Quicksand';font-size: 18px; margin-right: 200px;">
+			<strong style="font-size: 23px;"><center>Our Mission</center></strong>
+			<p style="text-align: center;">
+				To outfit people with affordable as well as quality health care technology products.
+			</p>
+		</div>
+	</div>
+	<div id="Aboutus"style="margin-top: 100px;">
+		<center>
+			<strong style="color: #4199fe;font-size: 30px;"><u> Products </u></strong>
+		</center>
+	</div>
+	<div class="prod">
+		<img src="dash.png" style="width:400px;height: 400px;padding-left: 150px;margin-top: 20px;">
+		<img src="acu.png" style="width:400px;height: 400px;">
+		<img src="pro.png" style="width:400px;height: 400px;">
+	</div>
+	<div style="width: 1000px;border: 3px ridge rgba(51, 51, 51, 0.3);padding: 50px;margin: 28px; border-radius: 10px;margin-left: 200px; height: 220px; font-family: 'Quicksand';font-size: 18px;">
+		<center><img src="aucplan.png" width="150px" height="50px"></center>
+		<center><p>Acuplan is indulged with E-Health record and Therapy Recommendation engine. It confers symptoms and patient-specific acupuncture point selection letting towards the revolution of personalized medicine. Our system assists the clinicians, therapists in enabling Patient-specific Treatment Planning to the complete clinical workflow. It helps practitioners to treat patients with scientific evidences and beneficence. The real-time navigation system is strengthened to outfit meticulous clinical effectiveness. Our standalone system is engulfed with many features to treat patients with more systematic evidence.</p></center>
+		<center><form action="" method="POST"><button class="btn">View More</button></form></center>
+	</div>
+	<div style="margin-top: 100px;">
+		<center>
+			<strong style="color: #4199fe;font-size: 30px;"><u> Our Collaborators </u></strong>
+		</center>
+		<center><img src="collab.png" width="1170px" height="430" style="padding-top:50px"></center>
+	</div>
+	<div style="margin-top: 100px;">
+		<center>
+			<strong style="color: #4199fe;font-size: 30px;"><u> Get In Touch </u></strong>
+		</center>
+	</div>
+	<div class="flex-container" id="contactus">
+		<div class="contact" style=" width: 400px;padding: 50px;margin: 40px; border-radius: 10px; height: 70px; font-family: 'Quicksand';font-size: 18px; margin-left: 200px;">
+			<strong style="color: #4199fe;font-size: 25px;padding-left: 100px;">Contact Details</strong><br>
+			<p style="color:dimgray;"><i style="font-size:24px;padding-top: 10px;color: dimgray;" class="fa">&#xf041;</i> &nbsp; No1, 5th Floor, C Block, Phase 2, IIT Madras Research Park, Chennai, Tamil Nadu - 600113</p>
+			<p style="color:dimgray;"><i style="font-size:24px;color: dimgray;" class="fa">&#xf095;</i>&nbsp;Phone:+91-9715707807</p>
+			<p style="color:dimgray;"><i style="font-size:24px;color:dimgray;" class="fa">&#xf0e0;</i>&nbsp;Email: contact@curneu.com</p>
+		</div>
+		<div class="contact" style=" width: 400px;padding: 50px;margin: 40px; border-radius: 10px; height: 70px; font-family: 'Quicksand';font-size: 18px; margin-right: 200px;">
+			<form action="" id="form">
+			<input type="text" id="fname" name="fname" placeholder="Your name"><br>
+			<input type="email" id="em" name="em" placeholder="Your email"><br>
+			<input type="text" id="sub" name="sub" placeholder="Subject"><br>
+			<textarea rows="4" cols="51" name="comment" form="form" placeholder="Message"></textarea>
+			<input type="submit" value="Submit">
+			<input type="submit" value="Reset">
+		</div>
+	</div>
+	<div style=" width: 400px;padding-top: 50px;margin-top: 300px; border-radius: 10px; height: 70px; font-family: 'Quicksand';font-size: 18px;">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.754217938322!2d80.23639306490581!3d12.987565940845384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267a8934d7a1b%3A0x85f6f20593a8e65f!2sCurneu%20MedTech%20Innovations%20Private%20Limited!5e0!3m2!1sen!2sin!4v1650080234627!5m2!1sen!2sin" width="1504px" height="300" style="border:0; background-size:cover;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<div>
+</body>
+</html>
